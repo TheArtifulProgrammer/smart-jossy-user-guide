@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            line-height: 1.7;
+        }
+        
+        .container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color: limegreen;
+        }
+        
+        .container-2 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: limegreen;
+        }
+        
+        .title {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: white;
+        }
+        /* New section style */
+        
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 20px;
+            padding: 30px;
+        }
+        
+        .section-x {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 30px;
+        }
+        
+        .section-y {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 30px;
+        }
+        
+        .section-left {
+            flex: 1;
+        }
+        
+        .section-right {
+            flex: 1;
+        }
+        
+        .section-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        .text-white {
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .section-description {
+            font-size: 16px;
+            color: black;
+        }
+        
+        span {
+            color: limegreen;
+        }
+        
+        .bg-lime {
+            background-color: limegreen;
+            padding: 30px;
+        }
+        
+        .bg-lime-sm {
+            background-color: limegreen;
+            padding: 5px;
+        }
+        /* Responsive YouTube video */
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Media query for smaller screens */
+        
+        @media (max-width: 768px) {
+            .section {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="container">
+        <div class="title">🤖</div>
+        <div class="title">Smart Jossy</div>
+        <div class="subtitle">Your academic and research companion</div>
+        <a href="https://api.whatsapp.com/send?phone=263713603012&text=Hi+Jossy">
+            <div class="subtitle"><strong>Chat: 071 360 3012</strong></div>
+        </a>
+    </div>
+
+    <!-- what is section -->
+    <div class="section">
+        <div class="section-left">
+            <div class="section-title">What is <span>Smart Jossy</span>?</div>
+            <div class="section-description">
+                Smart Jossy is a WhatsApp chatbot that provides academic and research support, offering personalized assistance, answering questions from documents, and enabling interactive conversations with fictional characters for an immersive learning experience.
+            </div>
+        </div>
+        <div class="section-right">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yH-VwY0ImoY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Modules section -->
+    <div class="section-x">
+        <div class="section-title">1. Research <span>and</span> Chat</div>
+        <ul>
+            <li>Provides answers to questions and helps with research</li>
+            <li>Assists with homework and assignments</li>
+            <li>Explains complex concepts in a clear and concise manner</li>
+            <li>Offers step-by-step guidance for problem-solving</li>
+            <li>Provides relevant resources and references</li>
+        </ul>
+    </div>
+    <div class="section-y">
+        <div class="section-title">2. Chat <span>with</span> Documents</div>
+        <ul>
+            <li>Accepts books and documents for analysis</li>
+            <li>Extracts information and answers from texts</li>
+            <li>Saves time by eliminating manual searching</li>
+            <li>Delivers accurate and relevant responses</li>
+        </ul>
+    </div>
+    <div class="section-x">
+        <div class="section-title">3. Chat <span>with</span> Characters</div>
+        <ul>
+            <li>
+                Engages in conversations with historical figures, literary heroes, and fictional characters
+            </li>
+            <li>Brings beloved characters to life for interactive discussions</li>
+            <li>Explores different perspectives and insights</li>
+            <li>Provides an immersive and entertaining experience</li>
+        </ul>
+    </div>
+    <!-- Benefits and How it works -->
+    <div class="bg-lime">
+        <div class="section">
+            <div class="section-left">
+                <div class="section-title text-white">How It Works?</div>
+                <div class="section-description text-white">
+                    <ul class="text-white">
+                        <li>1. Say Hes to +263 71 360 3012</li>
+                        <li>
+                            2. Choose your module by clicking on the buttons on the bottom “Chat With A Book” or “Chat With Character” or “Research And Chat” Or Alternativley you can use shortcuts
+                        </li>
+                        <li>3. You are good to go, simply follow the instructions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-right">
+                <div class="section-title text-white">Benefits</div>
+                <div class="section-description">
+                    <ul class="text-white">
+                        <li>No need for data bundles</li>
+                        <li>5 free chat sessions when account balance is depleted</li>
+                        <li>
+                            You start with reasonable free chat session in your account
+                        </li>
+                        <li>You can download uploaded documents.</li>
+                        <li>Pay any amount based on your usage.</li>
+                        <li>You can start from where you left off</li>
+                        <li>No VPN or ChatGPT Account</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shortcuts -->
+    <div class="section-x">
+        <div class="section-title">Shortcuts</div>
+        <ol>
+            <li>Type "chat" for Research and Chat section.</li>
+            <li>Type "chat with document" for Chat with Documents section.</li>
+            <li>Type "chat with character" for Chat with Characters section.</li>
+            <li>Type "balance" to check your account balance.</li>
+            <li>Type "top up" to add funds to your account.</li>
+            <li>Type "start over" to return to this menu.</li>
+        </ol>
+
+    </div>
+    <!-- Our Story & About -->
+    <div class="container-2">
+        <div class="section-left">
+            <div class="section-title text-white" style="margin-top: 25px">
+                About Us
+            </div>
+            <div class="section-description">
+                <p class="text-white">
+                    Our mission is to empower individuals and organizations with cutting-edge technology that enhances their lives and facilitates meaningful connections.
+                </p>
+            </div>
+            <div class="section-title text-white">Our Story</div>
+            <div class="section-description">
+                <p class="text-white">
+                    Our journey began with a simple idea: to create a tool that would revolutionize the way people access academic and research support. We understood the challenges faced by students, researchers, and curious minds in their quest for knowledge. To address
+                    these challenges, we embarked on a mission to develop a solution that would be both accessible and engaging.
+                </p>
+            </div>
+            <div class="section-title text-white">User Guide</div>
+            <div class="section-description">
+                <h3 class="text-white">
+                    <a href="./2023170 SmartJossy ChatBot Carousel.pdf" target="_blank" class="text-white">Download it Here 👇</a
+            >
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!-- shortcuts -->
+    <div class="section-x">
+      <div class="section-title">Contact <span>Us</span></div>
+      <h3>
+        Call / App :
+        <a
+          href="https://api.whatsapp.com/send?phone=263782244051&text=Hi+Munashe"
+          ><span>078 224 4051</span></a
+        >
+      </h3>
+      <h3>
+        Email:
+        <a href="mailto:theartfulprogrammer@gmail.com"
+          ><span>theartfulprogrammer@gmail.com</span></a
+        >
+      </h3>
+      <h3>
+        X :
+        <a href="https://twitter.com/theartfuldev_"
+          ><span>https://twitter.com/theartfuldev_</span></a
+        >
+      </h3>
+      <h3>
+        YouTube :
+        <a href="https://www.youtube.com/channel/UCXBrFMQjMV9s8ZDj8G6bKAQ"
+          ><span>https://www.youtube.com/channel/UCXBrFMQjMV9s8ZDj8G6bKAQ</span></a
+        >
+      </h3>
+      <h3>
+        Smart Jossy:
+        <a href="https://api.whatsapp.com/send?phone=263713603012&text=Hi+Jossy"
+          ><span>071 360 3012</span></a
+        >
+      </h3>
+      <h3>
+        Address:
+        <a href="https://api.whatsapp.com/send?phone=263713603012&text=Hi+Jossy"
+          ><span>Malhogany Circle, Marlborough, Harare, Zimbabwe</span></a
+        >
+      </h3>
+    </div>
+    <!-- Footer -->
+    <div class="bg-lime-sm" style="text-align: center">
+      <h4>
+        <a href="terms.html" target="_blank" class="text-white"
+          >Terms &amp; Conditions - Privacy Policy</a
+        >
+      </h4>
+    </div>
+  </body>
+</html>
